@@ -10,7 +10,7 @@
   <body>
 
     <div class="login-box">
-      <img src="/img/logo.png" class="avatar" alt="Avatar Image">
+      {{-- <img src="/img/logo.png" class="avatar" alt="Avatar Image">   --}}
       <h1>Login Here</h1>
       <form  method="GET" action="{{route('login')}}"> 
         <!-- USERNAME INPUT -->
@@ -23,6 +23,10 @@
         <a href="#">Lost your Password?</a><br>
         <a href="#">Don't have An account?</a>
       </form>
+    </div>
+    <div class="login-boxes">
+      <h1>LONIX</h1>
+      <h3>A UX BASED CREATIVE AGENCEY</h3>
     </div>
   </body>
 </html>
